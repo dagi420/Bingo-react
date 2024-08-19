@@ -39,10 +39,9 @@ body.dark-mode {
 }
 
 .number-grid-item.selected {
-  background-color: #4caf50;
-  color: white;
+  background-color: #ffffff; /* Light background for contrast */
+  color: #121212; /* Dark text color for contrast */
 }
-
 .number-grid-item:hover {
   background-color: #e0e0e0;
 }
@@ -211,6 +210,10 @@ body.dark-mode .bingo-cell {
   background-color: #333;
   color: #fff;
   border: 1px solid #555;
+}
+.body.dark-mode .bingo-cell.marked {
+  background-color: #23a842;
+  color: #fff;
 }
 
 .called-numbers {
